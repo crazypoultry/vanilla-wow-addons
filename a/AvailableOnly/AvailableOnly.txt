@@ -1,3 +1,0 @@
-http://ui.worldofwar.net/ui.php?id=351
--------
-Only shows available items from Trainers
