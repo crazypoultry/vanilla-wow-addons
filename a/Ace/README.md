@@ -1,10 +1,13 @@
 _____________________________________________________________________________________
 
-Ace
+# Ace
 
 Author:   Kaelten (kaelten@gmail.com)
+
 Version:  1.3.1
+
 Release:  5/12/2006
+
 Website:  http://www.wowace.com
 _____________________________________________________________________________________
 
@@ -18,7 +21,7 @@ them to jump right into the creative part of building their addons.
 
 _____________________________________________________________________________________
 
-	FEATURES
+### FEATURES
 _____________________________________________________________________________________
 
 So what does Ace have to offer? Here is a brief list of its features:
@@ -41,15 +44,15 @@ New features for 1.2! (Requires World of Warcraft client version 1.7+)
 
 _____________________________________________________________________________________
 
-	USAGE
+### USAGE
 _____________________________________________________________________________________
 
 Ace provides some basic commands to the player for managing Ace-derived addons. To
 use Ace for addon development, see the note below.
 
---------------
- ACE COMMANDS
---------------
+_____________________________________________________________________________________
+ ### ACE COMMANDS
+_____________________________________________________________________________________
 
 /ace
 
@@ -131,9 +134,9 @@ Options:
 		- all	  : Add every addon to the profile so that each will be customized
 					in that profile.
 
------------------------
- COMMON ADDON COMMANDS
------------------------
+_____________________________________________________________________________________
+ ### COMMON ADDON COMMANDS
+_____________________________________________________________________________________
 
 There are common commands available to most, if not all, Ace addons. Addon authors
 have some measure of control over these, however, so they may not be available in
@@ -158,7 +161,7 @@ display all of that addon's settings within the currently loaded profile.
 
 _____________________________________________________________________________________
 
-	DEVELOPMENT
+### DEVELOPMENT
 _____________________________________________________________________________________
 
 To use Ace for addon development, download the developer tool kit, which contains
@@ -167,7 +170,7 @@ of shareable functions.
 
 _____________________________________________________________________________________
 
-	CREDITS
+### CREDITS
 _____________________________________________________________________________________
 
 - Rowne for his Fetch and FetchDB, which AceState and AceDB, respectively, were
@@ -189,7 +192,7 @@ ________________________________________________________________________________
 
 _____________________________________________________________________________________
 
-	SPECIAL THANKS
+### SPECIAL THANKS
 _____________________________________________________________________________________
 
 The following people deserve very special thanks.
@@ -209,7 +212,7 @@ The following people deserve very special thanks.
 
 _____________________________________________________________________________________
 
-	VERSION HISTORY
+### VERSION HISTORY
 _____________________________________________________________________________________
 
 [5/12/2006] v1.3.1
@@ -262,10 +265,8 @@ ________________________________________________________________________________
 - Removed a leftover debugging statement.
 
 [2005-09-13] v1.2
------------------
- Feature Changes
------------------
-(chat commands)
+
+ Feature Changes (chat commands)
 - load : Load any addon (not just Ace addons) that can be loaded dynamically. Type
   /ace list loadable for a list of addons you can load. Note that addons must be
   modified to be loadable in this way, so you may not immediately be able to use
@@ -286,9 +287,9 @@ ________________________________________________________________________________
   have been replaced with 'standby'. This is to avoid confusion with the new API
   enable/disable features provided in game patch 1.7. 'standby' functions the same
   as enable/disable did but instead acts as a toggle between these two states.
--------------
+
  API Changes
--------------
+
 (added)
 - Script handling support. This refers to the ability to add OnShow, OnClick, and
   other handlers to frame elements. This system works just like the hooking system
@@ -328,3 +329,5 @@ ________________________________________________________________________________
 - The AceChatCmd:report() method now accept 'indent' as one of the configuration
   options in addition to 'text', 'val', and 'map'. 'indent' is an integer specifying
   the number of level to indent a report line.
+
+		
