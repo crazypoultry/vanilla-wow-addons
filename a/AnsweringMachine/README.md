@@ -1,0 +1,5 @@
+# Answering Machine
+
+Stores messages for you while you are AFK
+
+http://wowvault.ign.com/View.php?view=UIMods.Detail&id=191
