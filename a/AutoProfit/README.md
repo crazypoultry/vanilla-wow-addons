@@ -1,3 +1,4 @@
-http://www.curse-gaming.com/en/wow/addons-2006-1-autoprofit-deluxe-sellomatic.html
------
+# AutoProfit
 Automatically sell gray items when you talk to a vendor
+
+http://www.curse-gaming.com/en/wow/addons-2006-1-autoprofit-deluxe-sellomatic.html
