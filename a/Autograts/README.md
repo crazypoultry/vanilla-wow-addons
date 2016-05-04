@@ -1,8 +1,11 @@
+#Autograts
+
 well...
 
 not much to write here:
 
 /grats on - turns it on
+
 /grats off - turns it off
 
 that's it
