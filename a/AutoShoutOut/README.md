@@ -1,4 +1,5 @@
-AutoShoutOut by Cosmic Cleric (a.k.a. Effren)
+# AutoShoutOut 
+by Cosmic Cleric (a.k.a. Effren)
 
 Version 1.15.5 - Automatically notifies others when player/pet stats drop below a certain percentage.
 
@@ -109,9 +110,9 @@ the configuration they want to be active on the dropdown control, at the top of 
 
 This below chart lays out what was just stated above...
 
- CONFIG      NOTIFY       HOW OFTEN       WHEN TO            NOTIFICATION
-  TYPE        TYPE        TO NOTIFY       NOTIFY                METHOD
-======== =============== =========== ================ =========================
+	 CONFIG      NOTIFY       HOW OFTEN       WHEN TO            NOTIFICATION
+ 	 TYPE        TYPE        TO NOTIFY       NOTIFY                METHOD
+	======== =============== =========== ================ =========================
                                                       -- Shout   (Vocal Emote)
                                      -- Combat Only --|
                                      |                -- Message (Chat Message)
@@ -126,8 +127,8 @@ This below chart lays out what was just stated above...
          |                           |                -- Message (Chat Message)
          -- Life ------- Frequency --|
          |                           |                -- Shout   (Vocal Emote)
-         |                           -- Always -------|
- Solo ---|                                            -- Message (Chat Message)
+         |                           -- Always -------|  
+ 	Solo |                                            -- Message (Chat Message)
          |   
          |   
          |                                            -- Shout   (Vocal Emote)
@@ -161,7 +162,7 @@ This below chart lays out what was just stated above...
          -- Life ------- Frequency --|
          |                           |                -- Shout   (Vocal Emote)
          |                           -- Always -------|
- Party --|                                            -- Message (Chat Message)
+ 	Party|                                            -- Message (Chat Message)
          |   
          |   
          |                                            -- Shout   (Vocal Emote)
@@ -195,7 +196,7 @@ This below chart lays out what was just stated above...
          -- Life ------- Frequency --|
          |                           |                -- Shout   (Vocal Emote)
          |                           -- Always -------|
- Raid ---|                                            -- Message (Chat Message)
+ 	Raid |                                            -- Message (Chat Message)
          |   
          |   
          |                                            -- Shout   (Vocal Emote)
