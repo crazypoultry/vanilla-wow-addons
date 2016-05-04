@@ -1,17 +1,19 @@
-Advanced Trade Skill Window v0.4.0
+# Advanced Trade Skill Window v0.4.0
 a World of Warcraft UI Addon
-written 2006 by Rene Schneider (Slarti on EU-Blackhand)
-----------------------------------------------------------------
 
-1. Installation
+written 2006 by Rene Schneider (Slarti on EU-Blackhand)
+
+
+## 1. Installation
 The installation of this addon works like the installation of many
 other addons: extract the archive into your WoW directory (and make
 sure that your unpacker uses the path names in the archive!) and have fun!
 
-2. Commands
+## 2. Commands
 There are no commands - you just open your tradeskill window as you
 always do. If this addon is enabled, it will replace the standard
 tradeskill window.
+
 Okay...there is actually one command:
 /atsw [disable/enable] - This (typed while you have the window for a
 trade skill opened) will enable or disable ATSW for the opened trade skill.
@@ -19,6 +21,7 @@ Most buttons in ATSW are self-explaining.
 By clicking on an item with your chat line opened and your shift key pressed
 ATSW will add a list of the reagents necessary to create a single item 
 to the chat line.
+
 The "Reagents" button will show you a list of items needed to produce the
 queued things. It will show you how many reagents you have in your inventory,
 in your bank, on alternative characters on the same server and if a reagent
@@ -27,33 +30,44 @@ characters, you get a list of all alts currently posessing the item in question.
 ATSW can also automatically buy necessary items from a merchant when speaking to
 him - either manually by clicking a button in the reagents window or
 automatically when opening the merchant window.
+
 ATSW has a powerful search function built-in. You can either just type some text
 into the search box and have ATSW filter the recipe list according to your entry,
 or you can use one of the following parameters:
+
 ----------------------------------------------------------------------------------
 :reagent [reagent name] - filters the list to only include items that need the
                           specified reagent
+                          
 :minlevel [level] - filters the list to only include recipes for items with at
                     least the given level requirement
+                    
 :maxlevel [level] - the same as minlevel, just the other way round
+
 :minrarity [grey/white/green/blue/purple] - filters the list to only include recipes
                                             for items with at least the given rarity
+                                            
 :maxrarity [grey/white/green/blue/purple] - should be self-explanatory
+
 :minpossible [count] - filters the list to only include items that can be produced
                        at least [count] times with the material in your inventory
+                       
 :maxpossible [count] - do I really need to explain this?
+
 :minpossibletotal [count] - like minpossible, but considers material in your bank,
                             your alt's banks and buyable materials (actually it
 			    depends on what you have activated in the options
 			    window!)
+                
 :maxpossibletotal [count] - doh!
+
 ----------------------------------------------------------------------------------
 You can even combine multiple parameters and a text for a name search, like this:
 "leather :minlevel 20 :minrarity green" - this will show you only recipes with the
 word "leather" in their name, a minimum level requirement of 20 and a minimum rarity
 of "green".
 
-3. Compatibility
+## 3. Compatibility
 I know that this addon does prevent several additions to the standard
 tradeskill window from working correctly. This is because ATSW is not a
 simple addition to the tradeskill window but a replacement. I decided to do
@@ -61,7 +75,7 @@ it this way because I think Blizzards tradeskill window is ugly: it's way
 too small and missing some essential functions for effectively dealing with
 a long list of recipes.
 
-3. Changelog
+## 4. Changelog
 
 v0.1 
 - initial version
