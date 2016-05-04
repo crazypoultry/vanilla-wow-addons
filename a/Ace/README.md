@@ -51,7 +51,8 @@ Ace provides some basic commands to the player for managing Ace-derived addons. 
 use Ace for addon development, see the note below.
 
 _____________________________________________________________________________________
- ### ACE COMMANDS
+
+### ACE COMMANDS
 _____________________________________________________________________________________
 
 /ace
@@ -135,7 +136,8 @@ Options:
 					in that profile.
 
 _____________________________________________________________________________________
- ### COMMON ADDON COMMANDS
+ 
+### COMMON ADDON COMMANDS
 _____________________________________________________________________________________
 
 There are common commands available to most, if not all, Ace addons. Addon authors
