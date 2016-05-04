@@ -1,8 +1,9 @@
-Advanced Weapon Stats 0.85 by Greeg (Based on Stalkyr's InstantDamage Addon)
+# Advanced Weapon Stats 0.85 
+### by Greeg (Based on Stalkyr's InstantDamage Addon)
 
-============================
-DESCRIPTION:
-============================
+
+## DESCRIPTION:
+
 
 This addon calculates weapon damage (white damage, instant skills, on next melee skills using different formulas) adjusted by character's stats, armor class reduction (few presets), custom attack power buffs, and damage buffs. It can help you determine certain weapon's worthness before you equip it (so you can check weapon damage before you spend your dkp). Advanced Weapon Stats is mainly for 60 lvl warriors, rogues and (partially) shamans (more in 1.12 patch). It displays Mortal Strike, Bloodthirst, Overpower, Whirlwind, Heroic Strike stats (if character is a warrior) and Sinister Strike, Riposte, Ghostly Strike, Eviscerate, Hemorrhage stats (for rogues) and Ambush, Backstab (if character is rogue and weapon is dagger), Rockbiter, Windfury Weapon stats (for Shamans).
 
@@ -13,9 +14,8 @@ Advanced Weapon Stats also shows some additional info like:
 - +damage bonus received from 10 ap 
 - average seconds needed for sword spec to proc (warrior)
 
-============================
-FAQ:
-============================
+
+## FAQ:
 
 1. Do i need to unequip my mainhand, secondaryhand slot to check some linked (via chat for example) weapon stats ?
 
@@ -52,16 +52,17 @@ Every formula uses highest possible skill rank. Wanna change it ? Edit AdWS.lua 
 4. Weapon tooltip shows some values formatted in three columns. What is their meaning ?
 
 I Column - shows average hit for each skill
+
 II Column - shows average crititical for each skill
+
 III Column - shows average crititical with damage bonus multiplier for each skill (for example you can set third columns to display average crit with enrage and deathwish buff (1.25 x 1.2 = 1.5))
 
 5. I don't see any Advanced Stats in weapon tooltip.
 - make sure your class is supported.
 - Advanced Weapon Stats currently works on english wow client.
 
-============================
-COMMANDS:
-============================
+
+## COMMANDS:
 
 1. General Commands:
 /adws - Advanced Weapon Stats Help
@@ -85,17 +86,16 @@ COMMANDS:
 /adws impevi - Set Improved Eviscerate talent bonus
 /adws rogueoffhand - Set Offhand weapon handicap
 
-============================
-DEFAULT SETTINGS:
-============================
+
+## DEFAULT SETTINGS:
 
 General: Custom Damage Bonus = 1.3 (+30 %), Custom Attack Power Bonus = 0, Armor Class Reduction Preset = No Reduction
 Warrior: Build = Arms, Impale = Yes (Crit value = 220 %), Offhand handicap = 0.5 (50 % - 0 talents), 2H Spec = 1 (0 talents), Display Sword Spec stats = on
 Rogue: Lethality = 2.3 (Crit Value = 230 %), Improved Eviscerate = 1.15 (+15 %), Aggression = 1.06 (+6 %), Opportunity = 1.20 (+20 %), Offhand handicap = 0.75 (75 % - 5 talents)
 
-============================
-TO DO
-============================
+
+## TO DO
+
 Random order :)
 - Support for more classes (ie. Druids, Hunters, Paladins)
 - GUI
@@ -106,17 +106,16 @@ Random order :)
 - Compact mode
 - HTK (Hits to kill) amount of hits needed to kill the target (based on armor reduction and hitpoints) 
 
-============================
-IF THINGS GO WRONG:
-============================
+
+## IF THINGS GO WRONG:
+
 a) Some strange values (if you switched from 0.8 -> 0.85 version)
 - reset your armor reduction preset. /adws ac nored, then again use any preset you like
 b) everything is f%^&* up
 - delete AdWS Settings - file "AdWS.lua" from you Wow ... \ Saved Variables \ folder
 
-============================
-PATCH NOTES
-============================
+## PATCH NOTES
+
 Version 0.85
 - rogue formulas changed (backstab, ambush, ghostly strike, riposte)
 - hemmorhage stats added (without debuff) 
